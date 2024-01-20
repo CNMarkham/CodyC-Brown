@@ -16,6 +16,13 @@ public class Pickup : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
+
+
+            GameObject.Find("door");
+
+
+
+            Destroy(GameObject.Find("door"));
         }
     }
 }
