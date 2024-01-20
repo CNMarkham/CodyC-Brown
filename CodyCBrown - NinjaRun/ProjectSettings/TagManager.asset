@@ -8,6 +8,7 @@ TagManager:
   - exit
   - coin
   - player
+  - door
   layers:
   - Default
   - TransparentFX
